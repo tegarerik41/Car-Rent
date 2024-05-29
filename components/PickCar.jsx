@@ -21,7 +21,7 @@ function PickCar() {
           <div className="pick-container">
             <div className="pick-container__title">
               <h3>Vehicle Models</h3>
-              <h2>Our rental fleet</h2>
+              <h2>Shuttle YIA Airport - Yogyakarta City</h2>
               <p>
                 Choose from a variety of our amazing vehicles to rent for your
                 next adventure or business trip

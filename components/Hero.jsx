@@ -13,7 +13,7 @@ function Hero() {
 
   const bookBtn = () => {
     document
-      .querySelector("#booking-section")
+      .querySelector("models-section")
       .scrollIntoView({ behavior: "smooth" });
   };
 
@@ -38,7 +38,7 @@ function Hero() {
           <img className="bg-shape" src={BgShape} alt="bg-shape" />
           <div className="hero-content">
             <div className="hero-content__text">
-              <h4>Plan your trip now</h4>
+              <h4>El Trans Tour & Travel</h4>
               <h1>
                 Save <span>big</span> with our car rental
               </h1>
@@ -48,14 +48,17 @@ function Hero() {
               </p>
               <div className="hero-content__text__btns">
               <a
-              onClick={bookBtn}
-              className="hero-content__text__btns__book-ride"
-              href="https://wa.me/628882587204"
-              target="_blank"
-              rel="noopener noreferrer"
-              >
-                Book Ride &nbsp; <IconCircleCheck />
-              </a>
+  onClick={(e) => {
+    e.preventDefault(); // Mencegah aksi default dari tag <a>
+    window.scrollTo(0, 0); // Menjalankan fungsi scroll
+    window.location.href = "https://wa.me/628882587204"; // Mengarahkan ke WhatsApp
+  }}
+  className="hero-content__text__btns__book-ride"
+  href="https://wa.me/628882587204"
+>
+  Book Ride &nbsp; <IconCircleCheck />
+</a>
+              
                 <Link className="hero-content__text__btns__learn-more" to="/">
                   Learn More &nbsp; <IconChevronRight />
                 </Link>

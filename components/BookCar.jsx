@@ -8,7 +8,21 @@ function Models() {
   return (
     <>
       <section className="models-section">
+        
         <div className="container">
+        <div className="pick-container">
+            <div className="pick-container__title">
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+                <h3>Vehicles Models</h3>
+                <h2>Include fuel and driver</h2>
+                <p>
+                Choose from a variety of our amazing vehicles to rent for your next adventure or business trip, including fuel and a driver.
+              </p>
+                </div>
+                </div>
           <div className="models-div">
             <div className="models-div__box">
               <div className="models-div__box__img">

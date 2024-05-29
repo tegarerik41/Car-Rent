@@ -1,4 +1,4 @@
-import { IconMail, IconMailOpened, IconPhone } from "@tabler/icons-react";
+import {IconMailOpened, IconPhone } from "@tabler/icons-react";
 import Footer from "../components/Footer";
 import HeroPages from "../components/HeroPages";
 import { IconLocation } from "@tabler/icons-react";
@@ -14,18 +14,15 @@ function Contact() {
               <h2>Need additional information?</h2>
               <p>
                 A multifaceted professional skilled in multiple fields of
-                research, development as well as a learning specialist. Over 15
+                research, development as well as a learning specialist. Over 1
                 years of experience.
               </p>
-              <a href="/">
-                <IconPhone /> &nbsp; (123) 456-7869
+              <a href="wa.me/628882587204">
+                <IconPhone /> &nbsp; (+62) 888-2587-204
               </a>
-              <a href="/">
-                <IconMail /> &nbsp; carrental@carmail.com
-              </a>
-              <a href="/">
+              <a href="https://maps.app.goo.gl/yeEmEHCUXHnnrVLt8">
                 <IconLocation />
-                &nbsp; Belgrade, Serbia
+                &nbsp; Temon, Kulon Progo, Yogyakarta
               </a>
             </div>
             <div className="contact-div__form">
@@ -45,7 +42,13 @@ function Contact() {
                 </label>
                 <textarea placeholder="Write Here.."></textarea>
 
-                <button type="submit">
+                <button 
+                  type="button" 
+                  onClick={(e) => {
+                    e.preventDefault(); // Mencegah aksi default jika ada
+                    window.location.href = "https://wa.me/628882587204"; // Mengarahkan ke WhatsApp
+                  }}
+                >
                   <IconMailOpened />
                   &nbsp; Send Message
                 </button>
@@ -60,7 +63,7 @@ function Contact() {
               <h2>Book a car by getting in touch with us</h2>
               <span>
                 <IconPhone width={40} height={40} />
-                <h3>(123) 456-7869</h3>
+                <h3>(+62) 888-2587-204</h3>
               </span>
             </div>
           </div>
