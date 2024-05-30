@@ -38,7 +38,7 @@ function Hero() {
           <img className="bg-shape" src={BgShape} alt="bg-shape" />
           <div className="hero-content">
             <div className="hero-content__text">
-              <h4>El Trans Tour & Travel</h4>
+              <h4>El Trans Tour & Travel Jogja</h4>
               <h1>
                 Save <span>big</span> with our car rental
               </h1>

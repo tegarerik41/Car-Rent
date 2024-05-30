@@ -17,7 +17,7 @@ function Models() {
               <br></br>
               <br></br>
                 <h3>Vehicles Models</h3>
-                <h2>Include fuel and driver</h2>
+                <h2>Shuttle Include fuel and driver</h2>
                 <p>
                 Choose from a variety of our amazing vehicles to rent for your next adventure or business trip, including fuel and a driver.
               </p>

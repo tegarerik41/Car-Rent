@@ -18,14 +18,15 @@ function ChooseUs() {
             <div className="text-container">
               <div className="text-container__left">
                 <h4>Why Choose Us</h4>
-                <h2>Best valued deals you will ever find</h2>
+                <h2>Jogja Tour and Tour Packages</h2>
                 <p>
-                  Discover the best deals you'll ever find with our unbeatable
+                  We have prepared various tourist package destinations in Jogja 
+                  for you and your family. Discover the best deals you'll ever find with our unbeatable
                   offers. We're dedicated to providing you with the best value
                   for your money, so you can enjoy top-quality services and
                   products without breaking the bank. Our deals are designed to
                   give you the ultimate renting experience, so don't miss out on
-                  your chance to save big.
+                  your chance to save big. Are you ready for adventure?
                 </p>
                 <a href="#home">
                   Find Details &nbsp;
