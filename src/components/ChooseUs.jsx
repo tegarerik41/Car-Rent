@@ -18,7 +18,7 @@ function ChooseUs() {
             <div className="text-container">
               <div className="text-container__left">
                 <h4>Why Choose Us</h4>
-                <h2>Jogja Tour and Tour Packages</h2>
+                <h2>Jogja Tour and Travel Packages</h2>
                 <p>
                   We have prepared various tourist package destinations in Jogja 
                   for you and your family. Discover the best deals you'll ever find with our unbeatable
