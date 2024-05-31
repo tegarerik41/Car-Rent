@@ -8,7 +8,7 @@ function Footer() {
           <div className="footer-content">
             <ul className="footer-content__1">
               <li>
-                <span>CAR</span> Rental
+                <span>EL Tour & Travel</span> Jogja
               </li>
               <li>
                 We offers a big range of vehicles for all your driving needs. We

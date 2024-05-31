@@ -32,11 +32,9 @@ function Models() {
                     <div className="models-div__box__descr__name-price__name">
                       <p>Toyota Avanza</p>
                       <span>
-                        <IconStar width={15} height={15} />
-                        <IconStar width={15} height={15} />
-                        <IconStar width={15} height={15} />
-                        <IconStar width={15} height={15} />
-                        <IconStar width={15} height={15} />
+                      <div className="models-div__box__descr__name-price__price">
+                      <h4>Rp. 750.000</h4>
+                    </div>
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
@@ -49,7 +47,7 @@ function Models() {
                       <IconCar /> &nbsp; Toyota
                     </span>
                     <span style={{ textAlign: "right" }}>
-                    <IconCar /> $29 Half Day &nbsp; 
+                    <IconCar /> $29 (Rp. 450.000) Half Day &nbsp; 
                     </span>
                     <span>
                       <IconCar /> &nbsp; Manual
@@ -79,13 +77,9 @@ function Models() {
                   <div className="models-div__box__descr__name-price">
                     <div className="models-div__box__descr__name-price__name">
                       <p>Toyota Terios</p>
-                      <span>
-                        <IconStar width={15} height={15} />
-                        <IconStar width={15} height={15} />
-                        <IconStar width={15} height={15} />
-                        <IconStar width={15} height={15} />
-                        <IconStar width={15} height={15} />
-                      </span>
+                      <div className="models-div__box__descr__name-price__price">
+                      <h4>Rp. 800.000</h4>
+                    </div>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
                       <h4>$50</h4>
@@ -97,7 +91,7 @@ function Models() {
                       <IconCar /> &nbsp; Toyota
                     </span>
                     <span style={{ textAlign: "right" }}>
-                    <IconCar /> $32/Half Day &nbsp; 
+                    <IconCar /> $32 (Rp. 500.000) /Half Day &nbsp; 
                     </span>
                     <span>
                       <IconCar /> &nbsp; Manual
@@ -128,11 +122,9 @@ function Models() {
                     <div className="models-div__box__descr__name-price__name">
                       <p>Xpander</p>
                       <span>
-                        <IconStar width={15} height={15} />
-                        <IconStar width={15} height={15} />
-                        <IconStar width={15} height={15} />
-                        <IconStar width={15} height={15} />
-                        <IconStar width={15} height={15} />
+                      <div className="models-div__box__descr__name-price__price">
+                      <h4>Rp. 850.000</h4>
+                    </div>
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
@@ -145,7 +137,7 @@ function Models() {
                       <IconCar /> &nbsp; Mitsubishi
                     </span>
                     <span style={{ textAlign: "right" }}>
-                    <IconCar /> $35/Half Day &nbsp; 
+                    <IconCar /> $35 (Rp. 550.000)/Half Day &nbsp; 
                     </span>
                     <span>
                       <IconCar /> &nbsp; Manual
@@ -176,11 +168,9 @@ function Models() {
                     <div className="models-div__box__descr__name-price__name">
                       <p>Innova Reborn</p>
                       <span>
-                        <IconStar width={15} height={15} />
-                        <IconStar width={15} height={15} />
-                        <IconStar width={15} height={15} />
-                        <IconStar width={15} height={15} />
-                        <IconStar width={15} height={15} />
+                      <div className="models-div__box__descr__name-price__price">
+                      <h4>Rp. 1.000.000</h4>
+                    </div>
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
@@ -193,7 +183,7 @@ function Models() {
                       <IconCar /> &nbsp; Toyota
                     </span>
                     <span style={{ textAlign: "right" }}>
-                    <IconCar /> $44/Half Day &nbsp; 
+                    <IconCar /> $44 (Rp. 700.000) /Half Day &nbsp; 
                     </span>
                     <span>
                       <IconCar /> &nbsp; Manual
