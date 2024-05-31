@@ -40,7 +40,7 @@ function Hero() {
             <div className="hero-content__text">
               <h4>EL Tour & Travel Jogja</h4>
               <h1>
-              Melayani Tour & Travel<span>Jogja</span> , dan Antar Jemput Bandara YIA
+              Melayani Tour & Travel <span>Jogja</span> , dan Antar Jemput Bandara YIA
               </h1>
               <p>
                 Rent the car of your dreams. Unbeatable prices, unlimited miles,
