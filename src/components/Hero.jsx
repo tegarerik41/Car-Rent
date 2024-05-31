@@ -43,8 +43,7 @@ function Hero() {
                 Save <span>big</span> with our car rental
               </h1>
               <p>
-                Rent the car of your dreams. Unbeatable prices, unlimited miles,
-                flexible pick-up options and much more.
+                Melayani Tour & Travel Jogja, dan Antar Jemput Bandara YIA
               </p>
               <div className="hero-content__text__btns">
               <a
